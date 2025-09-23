@@ -1,0 +1,16 @@
+Meme_Diccionario = { 
+'cringe':'Algo excepcionalmente raro o embarazoso',
+'LOL':'Una respuesta común a algo gracioso',
+'ROLF':'una respuesta a una broma',
+'SHEESH':'ligera desaprobación',
+'CREEPY ':'aterrador, siniestro',
+'AGGRO':'ponerse agresivo/enojado',
+}
+for i in range(5):
+    print(Meme_Diccionario.keys())
+    word = input('ingrese una palabra del diccionario:')
+    
+    if word in Meme_Diccionario.keys():
+        print(Meme_Diccionario[word])
+    else:
+        print('no existe la palabra en el diccionario')
